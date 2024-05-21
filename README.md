@@ -1,6 +1,6 @@
 step 1
 cd code/
-python process_data.py --session
+python process_data.py --session1
 
 step 2
 cd code/
