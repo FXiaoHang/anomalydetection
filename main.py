@@ -18,7 +18,7 @@ from sklearn.metrics import average_precision_score
 # custom modules
 from logger import setup_logger
 from metapath import drop_metapath
-from model_sess1 import HeteroGNN
+from model import HeteroGNN
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--dataset", type=str, default="../data/icdm2022_session1.pt")
